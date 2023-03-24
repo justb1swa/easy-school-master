@@ -11,8 +11,8 @@ pipeline {
         sh '''sonar-scanner \\
   -Dsonar.projectKey=easy-school \\
   -Dsonar.sources=. \\
-  -Dsonar.host.url=http://52.206.217.129:9000 \\
-  -Dsonar.login=sqp_e111820a7d7744089b55de30e6d2639800c09646'''
+  -Dsonar.host.url=http://18.232.31.116:9000 \\
+  -Dsonar.login=sqp_365a742f46c43e1d2e92c5a66de5114193801cad'''
       }
     }
 
